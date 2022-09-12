@@ -122,8 +122,8 @@ namespace SimpleProject
                 WriteLine();
                 WriteLine($"Производитель Asus: { laptops["Asus"]}.");
                 WriteLine($"Производитель HP:  { laptops["HP"]}.");
-            // игнорирование
-            laptops["HP"] = new Laptop();
+                // игнорирование
+                laptops["HP"] = new Laptop();
                 WriteLine($"Стоимость 4300: { laptops[4300.0]}.");
                 // недопустимая стоимость
                 WriteLine($"Стоимость 10500: { laptops[10500.0]}.");
